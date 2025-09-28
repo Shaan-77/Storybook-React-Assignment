@@ -3,7 +3,70 @@
 This project is a **React + TypeScript** application scaffolded with **Vite** and integrated with **Storybook** for UI component development, testing, and documentation.
 
 ---
-
+2. Folder Structure 
+Storybook-React/ 
+├── .gitignore 
+├── eslint.config.js 
+├── index.html 
+├── package-lock.json 
+├── package.json 
+├── README.md 
+├── tsconfig.app.json 
+├── tsconfig.json 
+├── tsconfig.node.json 
+├── vite.config.ts 
+├── vitest.config.ts 
+├── vitest.shims.d.ts 
+│ 
+├── .storybook/ 
+│   ├── main.ts 
+│   ├── preview.ts 
+│   └── vitest.setup.ts 
+│ 
+├── public/ 
+│   └── vite.svg 
+│ 
+├── src/ 
+│   ├── App.tsx 
+│   ├── index.css 
+│   ├── main.tsx 
+│   │ 
+│   ├── assets/ 
+│   │   └── react.svg 
+│   │ 
+│   ├── Components/ 
+│   │   ├── DataTable/ 
+│   
+│   │   ├── DataTable.tsx 
+│   │   │   └── DataTable.test.tsx 
+│   │   └── InputField/ 
+│   │       ├── InputField.tsx 
+│   │       └── InputField.test.tsx 
+│   │ 
+│   ├── SampleData/ 
+│   │   └── Data.ts 
+│   │ 
+│   └── stories/ 
+│       ├── assets/ 
+│       ├── Button.tsx 
+│       ├── Button.stories.ts 
+│       ├── Configure.mdx 
+│       ├── DataTable.stories.tsx 
+│       ├── Header.tsx 
+│       ├── Header.stories.ts 
+│       ├── InputField.stories.tsx 
+│       ├── Page.tsx 
+│       ├── Page.stories.ts 
+│       └── *.css 
+│ 
+└── storybook-static/ 
+├── assets/ 
+├── sb-addons/ 
+├── sb-common-assets/ 
+├── sb-manager/ 
+├── iframe.html 
+├── index.html 
+└── project.json
 ## 🚀 Features
 
 - ⚡ **Vite** for fast builds and HMR (Hot Module Replacement)  
