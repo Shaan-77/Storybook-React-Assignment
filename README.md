@@ -18,7 +18,7 @@ This project is a **React + TypeScript** application scaffolded with **Vite** an
 
 1. **Clone the repository**
    ```bash
-   git clone [<repo-url>](https://github.com/Shaan-77/Storybook-React-Assignment/tree/main)
+   git clone [<repo-url>]
    cd Storybook-React
    ```
 
