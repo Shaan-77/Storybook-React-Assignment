@@ -81,9 +81,10 @@ export const InputField = forwardRef<HTMLInputElement, InputFieldProps>(
         {label && (
           <label
             htmlFor={id}
-            className={`text-xl mb-2 font-semibold ${
+            className={clsx(
+              "text-xl mb-2 font-semibold",
               isDarkMode ? "text-white" : "text-gray-900"
-            }`}
+            )}
           >
             {label}
           </label>
@@ -101,7 +102,7 @@ export const InputField = forwardRef<HTMLInputElement, InputFieldProps>(
           <input
             id={id}
             ref={ref}
-            className={clsx("outline-none bg-transparent w-full", {
+            className={clsx("outline-none bg-transparent  w-full", {
               "pl-8": false,
             })}
             placeholder={placeholder}

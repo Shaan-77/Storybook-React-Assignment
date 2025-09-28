@@ -86,7 +86,7 @@ function App() {
                   variant="outlined"
                   size="md"
                   showClear={true}
-                  isDarkMode={true}
+                  isDarkMode={isDarkMode}
                 />
 
                 <InputField
@@ -98,7 +98,7 @@ function App() {
                   variant="filled"
                   size="md"
                   helperText="We'll use this for important notifications"
-                  isDarkMode={true}
+                  isDarkMode={isDarkMode}
                 />
               </div>
 
@@ -111,7 +111,7 @@ function App() {
                   size="md"
                   showPasswordToggle={true}
                   helperText="Must be at least 8 characters long"
-                  isDarkMode={true}
+                  isDarkMode={isDarkMode}
                 />
 
                 <InputField
@@ -121,7 +121,7 @@ function App() {
                   size="md"
                   showClear={true}
                   loading={true}
-                  isDarkMode={true}
+                  isDarkMode={isDarkMode}
                 />
               </div>
             </div>
